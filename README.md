@@ -4,20 +4,20 @@ This repository store mosquito information about taxonomy
 
 ## Dependencies
 
-This script was build on python 3.6.5+ and have only two dependencies:
+This script was build on python 3.6.5+ and have these dependencies:
 
-- [pandas](https://docs.python.org/3/library/argparse.html)
-- [numpy](https://docs.python.org/3/library/argparse.html)
+- [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
 - [argparse](https://docs.python.org/3/library/argparse.html)
-- [seaborn](https://docs.python.org/3/library/argparse.html)
-- [matplotlib](https://docs.python.org/3/library/argparse.html)
+- [seaborn](https://seaborn.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
 
 
 
 ## Recomended lectures
 - [Mosquito Taxonomic Inventory ](http://mosquito-taxonomic-inventory.info/valid-species-list): To understand the criteria involved in this taxonomy structure
 - [Recomende liteature about mosquito taxonomy ](http://mosquito-taxonomic-inventory.info/biblio): To keep up to date with this field.
-
+- [Color palletes of seaborn ](https://medium.com/@morganjonesartist/color-guide-to-seaborn-palettes-da849406d44f): To pass with -cm argument.
 
 
 ## Usage
