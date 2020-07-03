@@ -1,22 +1,22 @@
 # Mosquito tax
 
-This repository store mosquito information about taxonomy 
+This repository stores taxonomy information about mosquitoes. The source used to construct table and plots comes from [Mosquito Taxonomic Inventory ](http://mosquito-taxonomic-inventory.info/valid-species-list).
 
 ## Dependencies
 
 This script was build on python 3.6.5+ and have these dependencies:
 
-- [pandas](https://pandas.pydata.org/)
-- [numpy](https://numpy.org/)
-- [argparse](https://docs.python.org/3/library/argparse.html)
-- [seaborn](https://seaborn.pydata.org/)
-- [matplotlib](https://matplotlib.org/)
+- [pandas](https://pandas.pydata.org/);
+- [numpy](https://numpy.org/);
+- [argparse](https://docs.python.org/3/library/argparse.html);
+- [seaborn](https://seaborn.pydata.org/);
+- [matplotlib](https://matplotlib.org/);
 
 
 
 ## Recomended lectures
-- [Mosquito Taxonomic Inventory ](http://mosquito-taxonomic-inventory.info/valid-species-list): To understand the criteria involved in this taxonomy structure
-- [Recomende liteature about mosquito taxonomy ](http://mosquito-taxonomic-inventory.info/biblio): To keep up to date with this field.
+- [Mosquito Taxonomic Inventory ](http://mosquito-taxonomic-inventory.info/valid-species-list): To understand the criteria involved in this taxonomy structure.
+- [Recomende literature about mosquito taxonomy ](http://mosquito-taxonomic-inventory.info/biblio): To keep up to date with this field.
 - [Color palletes of seaborn ](https://medium.com/@morganjonesartist/color-guide-to-seaborn-palettes-da849406d44f): To pass with -cm argument.
 
 
@@ -39,7 +39,7 @@ This script was build on python 3.6.5+ and have these dependencies:
 
 
 ## Some considerations
-If you use one of this plots, or the tsv table for some poupose, please put the correct source: plot(https://github.com/dezordi/mosquitotax), taxonomy(http://mosquito-taxonomic-inventory.info/).
+If you use one of these plots, or the tsv table for some pourpose, please put the correct source: plot(https://github.com/dezordi/mosquitotax), taxonomy(http://mosquito-taxonomic-inventory.info/).
 
 All data used in these plots are recovered from [MTI](http://mosquito-taxonomic-inventory.info/sites/mosquito-taxonomic-inventory.info/files/Valid%20Species%20List_77.pdf).
 
