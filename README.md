@@ -6,38 +6,44 @@ This repository store mosquito information about taxonomy
 
 This script was build on python 3.6.5+ and have only two dependencies:
 
-- [argparse 1.1](https://docs.python.org/3/library/argparse.html)
-- [Bio (biopython) 1.76](https://biopython.org/)
+- [pandas](https://docs.python.org/3/library/argparse.html)
+- [numpy](https://docs.python.org/3/library/argparse.html)
+- [argparse](https://docs.python.org/3/library/argparse.html)
+- [seaborn](https://docs.python.org/3/library/argparse.html)
+- [matplotlib](https://docs.python.org/3/library/argparse.html)
+
+
 
 ## Recomended lectures
-- [biopython.Entrez](https://biopython.org/docs/1.74/api/Bio.Entrez.html): To understand the basic sintax.
-- [ncbi Entrez ebook](https://www.ncbi.nlm.nih.gov/books/NBK25499/): To check the databases, output types and file formats that entrez can access.
+- [Mosquito Taxonomic Inventory ](http://mosquito-taxonomic-inventory.info/valid-species-list): To understand the criteria involved in this taxonomy structure
+- [Recomende liteature about mosquito taxonomy ](http://mosquito-taxonomic-inventory.info/biblio): To keep up to date with this field.
+
+
+
 ## Usage
-- To recovery genbank information from nucleotide sequences:
-> python ncbi_seq_retrieve.py -in file_with_access_ids.txt -db nucleotide -ot gb
+- To plot the number of species by genus in a bar plot.
+> python plots.py -in mos_tax.tsv
+![](img_eg/bar_plot.png)
 
-Or to recovery in xml format, just insert the parameter -tf xml.
+- To plot the number of species in specific genus in a donut plot.
+> python plots.py -in mos_tax.tsv -st Anopheles Culex Aedes -pt Donut -gb 1
+![](img_eg/donut_plot.png)
 
-- To recovery cds translated to aminoacids from nucleotide sequences:
-> python ncbi_seq_retrieve.py -in file_with_acess_ids.txt -db nucleotide -ot fasta_cds_aa
+- To get a help about the plots.py usage:
+> python plots.py --help
 
-Or to recovery cds not translated, just change fasta_cds_aa for fasta_cds_na
+## Interesting links about mosquitoes biology:
+- [BOLDSYSTEMS ](https://www.boldsystems.org/index.php/Public_BINSearch?searchtype=records): To get barcode information;
+- [VectorBase ](https://www.vectorbase.org/): To get genomes, transcriptomes, proteomes and other molecular information about mosquito and other vectors;
+- [TIMETREE](http://www.timetree.org/): Put Culicidae in BUILD A TIME TREE Group to get the evolutionary tree with many information about geological scale and atmosphere levels, or just [Click here](https://itol.embl.de/tree/45462207268791593800428#) to see a cladogram of mosquitoes.
 
-- To recovery nucleotide of aminoacid sequences
-> python ncbi_seq_retrieve.py -in file_with_acess_ids.txt -db (nucleotide or protein) -ot fasta
-
-Or to recovery in xml format, just insert the parameter -tf xml.
-
-- To recovery taxonomy information of ncbi acess IDs
-> python ncbi_seq_retrieve.py -in file_with_acess_ids.txt -db (nucleotide or protein) -ot gb -tx True
 
 ## Some considerations
-If you have a file with IDs from nucleotide sequences, you can't use this file in a protein database, and vice-versa. If you call help function, a table with which text formats are allowed per output type, and which output types are allowed per database. 
+If you use one of this plots, or the tsv table for some poupose, please put the correct source: plot(https://github.com/dezordi/mosquitotax), taxonomy(http://mosquito-taxonomic-inventory.info/).
+
+All data used in these plots are recovered from [MTI](http://mosquito-taxonomic-inventory.info/sites/mosquito-taxonomic-inventory.info/files/Valid%20Species%20List_77.pdf).
 
 ## Disclaimer
 
-- I'm not a computer engineer or some related profession, I'm just write this script to study python and to automatize some bioinformatics tasks. So fell free to commit changes that makes the code more efficient or more clean.
-- This script will continue to be developed to englobe others functions, like recovery taxonomy information of sequences and features of sequences, for example.
-
-
-![](img_eg/bar_plot.png)
+- I'm not a computer engineer or some related professional, I'm just write this script to study python and to automatize some bioinformatics tasks. So fell free to commit changes that makes the code more efficient or more clean.
+- This script will continue to be developed to englobe others functions, like create histograms with years of mosquito collection.
