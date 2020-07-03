@@ -99,7 +99,7 @@ Albuginosus	marshallii	Albuginosus	Theobald	1901
 Albuginosus	ngong	Albuginosus	van Someren	1950
 Albuginosus	stokesi	Albuginosus	Evans	1929
 Albuginosus	teesdalei	Albuginosus	van Someren	1954
-Albuginosus [Aedes (Albuginosus)]	capensis	Albuginosus]	Edwards	1924
+Albuginosus	capensis	Albuginosus	Edwards	1924
 Anopheles	aberrans	Anopheles	Harrison & Scanlon	1975
 Anopheles	acaci	Anopheles	Baisas	1946
 Anopheles	acanthotorynus	Stethomyia	Komp	1937
@@ -950,12 +950,12 @@ Culex	clarki	Melanoconion	Evans	1924
 Culex	clastrieri	Aedinus	Casal & Garcia	1968
 Culex	coerulescens	Lophoceraomyia	Edwards	1928
 Culex	collessi	Lophoceraomyia	Sirivanakarn	1968
-Culex	columnaris	Melanoconion	Sá & Hutchings
+Culex	columnaris	Melanoconion	Sá & Hutchings	NA
 Culex	comatus	Melanoconion	Senevet & Abonnenc	1939
 Culex	commevynensis	Melanoconion	Bonne-Wepster & Bonne	1920
 Culex	comminutor	Melanoconion	Dyar	1920
 Culex	comorensis	Culex	Brunhes	1977
-Culex	comptus	Melanoconion	Sá & Sallum
+Culex	comptus	Melanoconion	Sá & Sallum NA
 Culex	confundior	Melanoconion	Komp & Rozeboom	1951
 Culex	conservator	Anoedioporpa	Dyar & Knab	1906
 Culex	consolator	Microculex	Dyar & Knab	1906
@@ -1202,8 +1202,8 @@ Culex	lineatus	Afroculex	Theobald	1912
 Culex	litoralis	Culex	Bohart	1946
 Culex	litwakae	Culex	Harbach	1985
 Culex	longicornis	Oculeomyia	Sirivanakarn	1976
-Culex	longisetosus	Melanoconion	Sá & Sallum
-Culex	longistylus	Melanoconion	Sá & Sallum
+Culex	longisetosus	Melanoconion	Sá & Sallum NA
+Culex	longistylus	Melanoconion	Sá & Sallum NA
 Culex	lopesi	Melanoconion	Sirivanakarn & Jakob	1979
 Culex	lucaris	Lophoceraomyia	Colless	1965
 Culex	lucifugus	Melanoconion	Komp	1936
@@ -1455,7 +1455,7 @@ Culex	spathulatus	Melanoconion	Forattini & Sallum	1987
 Culex	sphinx	Culex	Howard, Dyar & Knab	1913
 Culex	spiculostylus	Culiciomyia	Chen	1989
 Culex	spiculosus	Lophoceraomyia	Bram & Rattanarithikul	1967
-Culex	spinifer	Melanoconion	Sá & Sallum
+Culex	spinifer	Melanoconion	Sá & Sallum NA
 Culex	spinosus	Culex	Lutz	1905
 Culex	spissipes	Melanoconion	Theobald	1903
 Culex	squamosus	Oculeomyia	Taylor	1914
