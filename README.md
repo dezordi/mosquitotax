@@ -26,7 +26,6 @@ This script was build on python 3.6.5+ and have these dependencies:
 > python plots.py -in mos_tax.tsv
 ![](img_eg/bar_plot.png)
 
-- To plot the number of species by genus in a bar plot.
 > python plots.py -in mos_mixed_tax.tsv
 ![](img_eg/bar_plot_mix.png)
 
@@ -34,7 +33,6 @@ This script was build on python 3.6.5+ and have these dependencies:
 > python plots.py -in mos_tax.tsv -st Anopheles Culex Aedes -pt Donut -gb 1
 ![](img_eg/donut_plot.png)
 
-- To plot the number of species in specific genus in a donut plot.
 > python plots.py -in mos_mixed_tax.tsv -st Anopheles Culex Aedes -pt Donut -gb 1
 ![](img_eg/donut_plot_mix.png)
 
